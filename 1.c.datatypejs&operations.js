@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
 
-  <script>
 // JavaScript has several core data types:
 
 // String: Text enclosed in quotes.
@@ -135,7 +126,3 @@ console.log(total); // Output: "105"
 console.log(5 == "5"); // Output: true
 //Solution: Use the === operator to avoid type conversion.
 console.log(5 === "5"); // Output: false
-  </script>
-  
-</body>
-</html>

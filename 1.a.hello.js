@@ -1,1 +1,0 @@
-alert("Hello my friends. Good to see you again")

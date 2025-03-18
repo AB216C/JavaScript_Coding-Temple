@@ -1,45 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
 
-<!-- ⚠️ Important: Declaring Variables in JavaScript
+
+/* ⚠️ Important: Declaring Variables in JavaScript
 In JavaScript, you must declare a variable before using it. 
 This means you need to use let, const, or var to tell the program that the variable exists. 
 If you try to use a variable that hasn’t been declared, JavaScript will throw an error. -->
 
-<script>
   let userName = "Alice"    //variable declared and assigned value
 
   console.log(userName)   //output Alice
 
-//   The Role of the Semicolon (;)
-// JavaScript allows you to end statements with a semicolon (;), 
-// but it isn't always required. JavaScript automatically inserts semicolons (ASI - Automatic Semicolon Insertion) where it thinks they belong. 
-// However, it’s considered good practice to use semicolons to avoid unexpected behavior, especially in complex code.
+ The Role of the Semicolon (;)
+JavaScript allows you to end statements with a semicolon (;), but it isn't always required. JavaScript automatically inserts semicolons (ASI - Automatic Semicolon Insertion) where it thinks they belong. 
+However, it’s considered good practice to use semicolons to avoid unexpected behavior, especially in complex code.
+
+*/
+
+let age=25;
+
+console.log(age)   //output 25
 
 
+/*varabiel declared with let can be reassigned and no error will occur
+Example*/
 
+let name1 = "John Smith"    //global variable
 
-  let age=25;
+function myFunction() {
+  let name1 = "Devin Mugenzi"     //local variable
+}
 
-  console.log(age)   //output 25
-
-
-  /*varabiel declared with let can be reassigned and no error will occur
-  Example*/
-
-  let name1 = "John Smith"    //global variable
-
-  function myFunction() {
-    let name1 = "Devin Mugenzi"     //local variable
-  }
-
-  // FOr const variable, it can not be reassigned, it raises errors 
+// FOr const variable, it can not be reassigned, it raises errors 
 
 const name2 = "John SMith" 
 
@@ -77,18 +67,3 @@ console.log(compare)
 
 let isValid = true && false;
 console.log("isValid:",isValid);
-
-
-
-
-
-
-
-
-
-
-
-</script>
-  
-</body>
-</html>

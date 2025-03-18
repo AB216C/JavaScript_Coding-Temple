@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
 
+// 1. camelCase  for variables and functions
 
-
-  <script>
-    // 1. camelCase  for variables and functions
-   /* camelCase starts with a lowercase letter, and every new word begins with a capital letter.
+ /* camelCase starts with a lowercase letter, and every new word begins with a capital letter.
 This style is the standard for most JavaScript variables and function names.*/
 
 let userName = "John"
@@ -77,9 +69,3 @@ Be consistent with naming conventions.
 Use prefixes like is or has for boolean variables.
 Avoid starting with numbers or using special characters.
 */
-  </script>
-</head>
-<body>
-  
-</body>
-</html>
